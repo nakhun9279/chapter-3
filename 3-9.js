@@ -1,8 +1,8 @@
 var obj1 = {
     outer: function() {
-      console.log(this); // (1)
+      console.log(this);
       var innerFunc = function() {
-        console.log(this); // (2) (3)
+        console.log(this);
       };
       innerFunc();
   

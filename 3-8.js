@@ -8,10 +8,10 @@ var obj = {
       },
     },
   };
-  obj.methodA(); // { methodA: f, inner: {...} }    ( === obj)
-  obj['methodA'](); // { methodA: f, inner: {...} } ( === obj)
+  obj.methodA();
+  obj['methodA']();
   
-  obj.inner.methodB(); // { methodB: f }            ( === obj.inner)
-  obj.inner['methodB'](); // { methodB: f }         ( === obj.inner)
-  obj['inner'].methodB(); // { methodB: f }         ( === obj.inner)
-  obj['inner']['methodB'](); // { methodB: f }      ( === obj.inner)
+  obj.inner.methodB();
+  obj.inner['methodB']();
+  obj['inner'].methodB();
+  obj['inner']['methodB'](); 
