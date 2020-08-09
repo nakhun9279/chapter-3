@@ -1,7 +1,5 @@
 var str = 'abc def';
 
-Array.prototype.push.call(str, ', pushed string');
-
 
 Array.prototype.concat.call(str, 'string'); 
 

@@ -13,4 +13,4 @@ var report = {
     },
   };
   report.add(60, 85, 95);
-  console.log(report.sum, report.count, report.average()); 
+  console.log(report.sum, report.count, report.average());
